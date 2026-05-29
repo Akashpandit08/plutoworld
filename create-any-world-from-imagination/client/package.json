@@ -1,0 +1,25 @@
+{
+  "name": "create-any-world-from-imagination-client",
+  "version": "0.1.0",
+  "description": "React 3D client for Create Any World From Imagination.",
+  "private": true,
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.108.3",
+    "@react-three/fiber": "^8.16.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "socket.io-client": "^4.7.5",
+    "three": "^0.165.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.3.1"
+  }
+}
